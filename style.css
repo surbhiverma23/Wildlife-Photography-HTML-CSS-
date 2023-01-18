@@ -1,0 +1,334 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* @font-face {
+    font-family: ;
+    src: url(fonts/Montserrat/Montserrat-VariableFont_wght.ttf);
+} */
+/* @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap'); */
+.surbhi {
+    justify-content: end;
+}
+.main{
+    width: 100%;
+}
+.main-page {
+    background-image: url(images/1.jpg);
+    background-size: cover;
+    height: 650px;
+    -webkit-height: 650px;
+    -moz-height: 650px;
+}
+
+.main-page-shadow h1 {
+    /* line-height: 100px; */
+    margin-top: 200px;
+    font-size: 80px;
+    font-family: 'Lobster', cursive !important;
+    /* font-weight: lighter; */
+    color: white;
+}
+
+.navigation {
+    background-color: whitesmoke;
+    color: grey;
+    font-family: 'Lobster', cursive !important;
+    opacity: 0.6;
+}
+
+.Wildlife-tiles h1 {
+    font-family: 'Lobster', cursive;
+    font-size: 60px;
+}
+
+.tiles-card-1 {
+    /* border: 1px solid black; */
+    height: 450px;
+}
+
+.card-1 {
+    background-image: url(images/2.jpg);
+    background-size: cover;
+}
+
+.card-2 {
+    background-image: url(images/3.jpg);
+    background-size: cover;
+
+}
+
+.card-3 {
+    background-image: url(images/4.jpg);
+    background-size: cover;
+
+}
+
+
+.tiles-cards {
+    /* border: 1px solid black; */
+}
+
+.aquatic h1 {
+    font-family: 'Lobster', cursive;
+    font-size: 60px;
+}
+
+.aquatic {
+    background-image: url(https://wallpapershome.com/images/pages/pic_h/23724.jpg);
+    background-size: cover;
+    background-position: center center;
+    color: white;
+}
+
+.animal {
+    margin-top: 80vh;
+}
+
+.banner h1 {
+    font-family: 'Lobster', cursive;
+    font-size: 60px;
+}
+
+.banner {
+    background-color: black;
+}
+
+.banners-write {
+    /* margin: 10vh; */
+}
+
+.pic {
+    /* border: 1px solid black; */
+    height: 400px;
+}
+
+.pic-1 {
+    background-image: url(https://wallpapershome.com/images/pages/pic_h/23325.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+.pic-2 {
+    background-image: url(https://wallpapershome.com/images/pages/pic_h/19776.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+.pic-3 {
+    background-image: url(https://wallpapershome.com/images/pages/pic_h/1365.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+.pic-4 {
+    background-image: url(https://wallpapershome.com/images/pages/pic_h/4139.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+.select h1 {
+    font-family: 'Lobster', cursive;
+    font-size: 40px;
+}
+
+.select {
+    background-color: black;
+}
+
+.different {
+    background-image: linear-gradient(black, #1f2527);
+}
+
+.different-pictures {
+    /* border: 1px solid white; */
+}
+
+.different-pic-1 {
+    height: 500px;
+    /* border-radius: 50%; */
+    /* border: 1px solid white; */
+}
+
+.diff-1 {
+    background-image: url(images/5482110.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+.diff-2 {
+    background-image: url(https://images.pexels.com/photos/86405/penguin-funny-blue-water-86405.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-size: cover;
+    background-position: center center;
+
+}
+
+.diff-3 {
+    background-image: url(https://images.pexels.com/photos/2877854/pexels-photo-2877854.jpeg?auto=compress&cs=tinysrgb&w=600);
+    background-size: cover;
+    background-position: center center;
+}
+
+.diff-4 {
+    background-image: url(https://images.pexels.com/photos/638738/pexels-photo-638738.jpeg?auto=compress&cs=tinysrgb&w=600);
+    background-position: center center;
+    background-size: cover;
+}
+
+.diff-5 {
+    background-image: url(https://images.pexels.com/photos/460956/pexels-photo-460956.jpeg?auto=compress&cs=tinysrgb&w=600);
+    background-size: cover;
+    background-position: center center;
+}
+
+.diff-6 {
+    background-image: url(images/pexels-pixabay-259554.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+.icon {
+    justify-content: end;
+    font-size: 25px;
+}
+
+.colour-1 i:hover {
+    font-size: 22px;
+    color: red;
+}
+
+.colour-2 i:hover {
+    font-size: 22px;
+    color: blue;
+
+}
+
+.colour-3 i:hover {
+    color: skyblue;
+    font-size: 22px;
+}
+
+.colour-4 i:hover {
+    color: blue;
+    font-size: 22px;
+}
+
+.colour-5 i:hover {
+    color: white;
+    font-size: 22px;
+}
+
+.footer h1 {
+    font-family: 'Lobster', cursive;
+    font-size: 40px;
+}
+
+
+/* for small devices  */
+
+@media screen and (max-width : 600px) {
+    .main-page-shadow h1 {
+        font-size: 45px;
+    }
+
+    .main-page {
+        background: url(images/1.jpg) no-repeat center center/cover;
+        height: 500px;
+    }
+
+    .Wildlife-tiles h1 {
+        font-size: 45px;
+    }
+
+    .card-1 {
+        height: 400px;
+    }
+
+    .card-2 {
+        height: 400px;
+    }
+
+    .card-3 {
+        height: 400px;
+    }
+}
+
+
+/* for medium devices  */
+
+@media screen and (min-width : 420px) and (max-width:915px) {
+    .main-page {
+        background: url(images/1.jpg) no-repeat center center/cover;
+        height: 500px;
+    }
+
+    .main-page-shadow h1 {
+        font-size: 53px;
+    }
+}
+
+/* "About" css here */
+.about_main {
+    background-color: black;
+    color: white;  
+}
+
+.social-card i {
+    font-size: 20px;
+    margin: 10px;
+    color: white;
+    opacity: .6;
+    text-align: center;
+}
+
+.social-cards1 i:hover {
+    color: white;
+    border-radius: 3px;
+    text-align: center;
+    background-color: #0a66c2;
+    opacity: 1;
+    transition: all 0.5s;
+}
+
+.social-cards2 i:hover {
+    color: #1da1f2;
+    opacity: 1;
+    transition: all 0.5s;
+}
+
+.social-cards3 i:hover {
+    color: white;
+    opacity: 1;
+    transition: all 0.5s;
+}
+
+.social-cards4 i:hover {
+    color: #4867aa;
+    opacity: 1;
+    transition: all 0.5s;
+}
+
+.social-cards5 i:hover {
+    opacity: 1;
+    border-radius: 20px;
+    color: #e60a41c5;
+    transition: all 0.5s;
+}
+
+.copy {
+    background-color: whitesmoke;
+    line-height: 25px;
+    font-weight: bolder;
+    color: #474747;
+    text-decoration: none;
+}
+
+.copy a {
+    color: #474747;
+    text-decoration: none;
+}
+.copy a:hover{
+    color: #474747;
+    text-decoration: none;
+}
